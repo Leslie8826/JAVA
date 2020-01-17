@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class while_loop {
+public class priceCalculator {
 	public static void main(String[] args) {
 		boolean answer = false;
 		double tax1 = 0.196;
