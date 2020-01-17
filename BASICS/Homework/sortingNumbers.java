@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class sorting_3_numbers {
+public class sortingNumbers {
 	public static void main(String[] args) {
 		int a = 0, b = 0, c = 0;
 		
