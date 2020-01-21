@@ -1,3 +1,8 @@
+/* This program asks a user to enter grades to be stored in an array.
+   Then, the program finds the average of grades, the highest and lowest grades
+   as well as the number of grades over 90.
+*/
+
 import java.util.Scanner;
 
 public class arrayGrades {
