@@ -1,4 +1,15 @@
+/* V3
+ * This programs creates an array of characters of size 4 then asks the user to enter 
+ * the number of characters they want to add. The program also asks the user to choose
+ * the index he wants to insert the new characters.
+ * Since, arrays are fixed, in the program, we create a second array where will have 
+ * the values of the 1st array and the characters inserted at the chosen index
+ * 
+ * */
 
+// The for loop ask the right number of time the user to type a character
+// Issue: only the last character typed by the user is displayed in the 
+//        final array
 
 import java.util.Scanner;
 
