@@ -9,6 +9,8 @@
 
 // This is the fisrt draft of the program
 // Needs to be improved
+// Only just a few test cases work
+// Overall issue: Most of test cases fail
 
 import java.util.Scanner;
 
