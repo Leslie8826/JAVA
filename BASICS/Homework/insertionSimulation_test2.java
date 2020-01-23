@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class array7_v2 {
+public class insertionSimulation_test2 {
 
 	public static void main(String[] args) {
 		int n = 4;
