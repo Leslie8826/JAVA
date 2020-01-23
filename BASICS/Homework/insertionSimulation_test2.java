@@ -9,8 +9,10 @@
 
 // This is the second draft of the program
 // Improved version of insertionSimulation_test1.java
-// Issue: loop asks tomay times to enter a character from the user
-// It's way better than previous version
+// Issue 1: the for loop asks too many times to enter a character from the user
+// Issue 2: the characters are added to the new array at the right index but some characters 
+//          from the first array are missing
+// But it's way better than previous version
 
 import java.util.Scanner;
 
