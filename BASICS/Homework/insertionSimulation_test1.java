@@ -1,4 +1,5 @@
-/* 
+/* Version 1
+ *
  * This programs creates an array of characters of size 4 then asks the user to enter 
  * the number of characters they want to add. The program also asks the user to choose
  * the index he wants to insert the new characters.
