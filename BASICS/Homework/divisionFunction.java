@@ -4,13 +4,20 @@
 
 import java.util.Scanner;
 
+class divideByZeroException extends Error{};
+
 public class divisionFunction {
 	public static int division(int x, int y){
 		int res = 0;
-		int cour = x;
+		int sub = x;
+		
+		// if the divisor is equal to zero theprogram will stop
+		if (y == 0) {
+			throw new divideByZeroException();
+		}
 		
 		while(cour >= y){
-			cour=cour - y;
+			sub = sub - y;
 		    res = res + 1; 
 		    }
 		return res;
