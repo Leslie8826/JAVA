@@ -1,1 +1,2 @@
-Homework on the basics of java + final project
+# Basics of Java
+This part represents exercises on the subject as well a the final project associated.
