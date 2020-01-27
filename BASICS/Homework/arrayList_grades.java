@@ -36,8 +36,8 @@ public class arraylist {
 		
 		// add grades to the list of grades
 		addGrade(gradeList, 92.5);
-		addGrade(gradeList, 94.75);
-		addGrade(gradeList, 90.0);
+		addGrade(gradeList, 97.75);
+		addGrade(gradeList, 96.0);
 		
 		/*gradeList.add(92.75);
 		gradeList.add(95.65);
@@ -53,12 +53,20 @@ public class arraylist {
 		System.out.println(average(gradeList));
 		
 		// adds a new grade
-		System.out.println("\n Let's add a new grade. ");
-		addGrade(gradeList, 96.5);
+		double grade = 96.25;
+		System.out.println("\n Let's add a new grade: " + grade + " (out of 100)");
+		addGrade(gradeList, grade);
 		
 		// displays the new list of grades
 		System.out.println("\n New list of grades: ");
 		displayGrades(gradeList);
+		
+		// computes the average of grades
+		System.out.println("\n");
+		System.out.println("New average of grades: ");
+		System.out.println(average(gradeList));
 	}
 }
 
+
+	
