@@ -29,7 +29,7 @@ public class arraylist {
 		average = sum/gradeList.size();
 		
 		return average;
-	};
+	}
 	
 	public static void main(String[] args) {
 		ArrayList gradeList = new ArrayList<Double>();
@@ -38,10 +38,6 @@ public class arraylist {
 		addGrade(gradeList, 92.5);
 		addGrade(gradeList, 97.75);
 		addGrade(gradeList, 96.0);
-		
-		/*gradeList.add(92.75);
-		gradeList.add(95.65);
-		gradeList.add(97.0);*/
 		
 		// displays the list of grades
 		System.out.println("List of grades: ");
