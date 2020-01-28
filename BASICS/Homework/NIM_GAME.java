@@ -5,7 +5,11 @@
 // + each player has to remove a certain number of matches from the total: 1, 2 or 3 match(es)
 // + each player cannot remove the same number of matches the other player just removed:
 //          example --> player1 removes 2 matches, then player2 can only remove 1 or 3 matches
-// The game stops when there are no matches
+// The player who cannot remove any matches lose the game. This happens when there are zero matches left
+// or when only one match remains and the previous player took one match
+
+// This a draft of the game. It works for a few cases not all of them
+// Needs improvement
 
 import java.util.Scanner;
 
