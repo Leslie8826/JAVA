@@ -1,8 +1,9 @@
 // This program aims to represent a multiple-choice questionnaire.
 // First, the program asks the professor to enter the details about
 // the mcq: number of questions, number of answers per questions (assuming 
-// there will be the same number of questions for each question)
-//
+// there will be the same number of answers for each question).
+// Then, the program asks the professor to type each question along with
+// the choice of answers and the correct answer to that question.
 //
 
 import java.util.Scanner;
