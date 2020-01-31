@@ -4,7 +4,10 @@
 // there will be the same number of answers for each question).
 // Then, the program asks the professor to type each question along with
 // the choice of answers and the correct answer to that question.
-//
+// Finally, the program students take the questionnaire and enter their answers
+// to each question.
+// A final result will be given to students in how many questions out of the total 
+// number of questions
 
 import java.util.Scanner;
 
