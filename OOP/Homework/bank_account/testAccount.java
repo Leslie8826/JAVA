@@ -1,4 +1,4 @@
-// This program create an account object and tests its methods and instance variables
+// This class creates an account object and tests its methods and instance variables
 
 public class runAccount {
 	public static void main(String[] args) {
