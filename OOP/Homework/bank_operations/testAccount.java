@@ -14,7 +14,7 @@ public class testAccount {
 		// $10 withdrawal on account 2
 		a2.withdraw(10);
 		
-		// $75 transfer from account 1 to account 1
+		// $75 transfer from account 1 to account 2
 		a1.transfer(75, a2);
 		
 		// Display balances on 2 accounts
