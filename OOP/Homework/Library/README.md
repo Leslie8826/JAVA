@@ -5,7 +5,7 @@ In order to do so, we create a class for the books where we define the following
   - Title: the title of the book
   - Author: the author of the book
   - Editor: the editor of the book
-as well the following methods:
+<br> as well the following methods:
   - setTitle, setAuthor, setEditor: we define the title, the author and the editor of the book
   - getTitle, getAuthor, getEditor: we can have the information on the title, the author and the editor of the book
   
