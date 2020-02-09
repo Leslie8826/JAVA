@@ -1,4 +1,5 @@
-static int factorial(int n){
+public class Factorial {
+	static int factorial(int n){
 		int res = 1; 
 		
 		if (n<0){
@@ -11,3 +12,4 @@ static int factorial(int n){
 		
 		return res; 
 	}
+}
