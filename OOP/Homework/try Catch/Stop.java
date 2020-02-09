@@ -15,7 +15,8 @@ public class Stop {
 		
 		try {
 			System.out.println("Hello 1"); 
-			y = l(-2); 
+			y = l(-2);
+			// y = l(2);
 			
 			System.out.println("Hello 2");
 			} catch (Stop2 e) { 
