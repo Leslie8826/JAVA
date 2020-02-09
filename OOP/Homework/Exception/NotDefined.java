@@ -1,1 +1,2 @@
+class NotDefined extends Error{}
 
