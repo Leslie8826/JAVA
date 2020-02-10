@@ -1,1 +1,3 @@
-These are a few homework on inheritance
+# Inheritance
+
+These are a few homework on inheritance.
