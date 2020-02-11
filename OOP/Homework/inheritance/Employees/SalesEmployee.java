@@ -1,4 +1,4 @@
-public class SalesEmployees extends Employee{
+public class SalesEmployee extends Employee{
 	double base = Employee.value;
 	double salesResults;
 	double salary_index;
