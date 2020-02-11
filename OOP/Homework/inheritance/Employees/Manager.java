@@ -21,6 +21,7 @@ public class Manager extends Employee {
 	
 	int count=0;
 	public void managedEmployees(int managerId){
+		// Managers are defined here as employees with an id that is a multiple of 10
 		if(this.id%10 == 0) {
 			
 			// Stores the ids of managed employees in an array
