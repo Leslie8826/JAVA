@@ -47,7 +47,7 @@ public class TestEmployee {
 		// // Displays the employees managed by manager of id=20
 		System.out.println("\n Ids of employees managed by manager id=20: ");
 		manager1.managedEmployees(20);
-		//manager1.display_managedEmployees(20);
+		
 	}
 
 }
