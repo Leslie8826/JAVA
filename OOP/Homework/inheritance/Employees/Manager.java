@@ -1,29 +1,26 @@
 public class Manager extends Employee {
-	Employee employee11 = new Employee("Kloe", 11, 6.82);
-	Employee employee12 = new Employee("Arl", 12, 8.32);
-	Employee employee13 = new Employee("Krol", 13, 9.33);
-	Employee employee14 = new Employee("Klern", 14, 8.99);
-	Employee employee15 = new Employee("Karl2", 15, 10.00);
-	Employee employee16 = new Employee("Karl3", 16, 7.22);
-	Employee employee17 = new Employee("Karl4", 17, 7.22);
-	Employee employee18 = new Employee("Karl5", 18, 11.44);
-	Employee employee19 = new Employee("Karl5", 19, 23.22);
+	Employee employee11 = new Employee("Kloe", 11, 1.82);
+	Employee employee12 = new Employee("Arl", 12, 1.32);
+	Employee employee13 = new Employee("Krol", 13, 1.33);
+	Employee employee14 = new Employee("Klern", 14, 1.99);
+	Employee employee15 = new Employee("Karl2", 15, 1.40);
+	Employee employee16 = new Employee("Karl3", 16, 1.72);
+	Employee employee17 = new Employee("Karl4", 17, 2.22);
+	Employee employee18 = new Employee("Karl5", 18, 2.44);
+	Employee employee19 = new Employee("Karl5", 19, 2.14);
 	
 	Employee[] managedEmployees = {employee11, employee12, employee13, employee14, employee15, employee16, employee17,
 			employee18, employee19};
 	
 	int[] managedEmployeesId = {0, 0, 0, 0, 0, 0, 0, 0, 0};
 	
-	// Constructor for manager. It inherites the functionalities of the constructor of the employee class
+	// Constructor for manager. It inherites the 
 	public Manager(String name, int id, double index) {
 		super(name, id, index);	
 	}
 	
-	// Method to find the employees that are managed by a manager of an id that is a multiple of 10
-	// All employees that have an id that is not a multiple of 10 have a manager
 	int count=0;
 	public void managedEmployees(int managerId){
-		// Managers are defined here as employees with an id that is a multiple of 10
 		if(this.id%10 == 0) {
 			
 			// Stores the ids of managed employees in an array
@@ -38,4 +35,5 @@ public class Manager extends Employee {
 				System.out.println(managedEmployees[i].getId());
 			}
 		}
+	
 }
