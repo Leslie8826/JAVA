@@ -14,7 +14,7 @@ public class Manager extends Employee {
 	
 	int[] managedEmployeesId = {0, 0, 0, 0, 0, 0, 0, 0, 0};
 	
-	// Constructor for manager. It inherites the 
+	// Constructor for manager. It inherites the functionalities of the employee contructor
 	public Manager(String name, int id, double index) {
 		super(name, id, index);	
 	}
