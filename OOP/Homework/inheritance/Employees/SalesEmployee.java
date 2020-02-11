@@ -1,3 +1,5 @@
+// This is a class for a certain type of employees: sales employees
+// 
 public class SalesEmployee extends Employee{
 	double base = Employee.value;
 	double salesResults;
