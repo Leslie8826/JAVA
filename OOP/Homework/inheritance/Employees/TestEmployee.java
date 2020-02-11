@@ -5,16 +5,16 @@ public class TestEmployee {
 		Employee[] managedEmployees = new Employee[9];
 		
 		// Creates 9 employees
-		Employee employee1 = new Employee("Karl", 1, 7.22);
-		Employee employee11 = new Employee("Kloe", 11, 6.82);
-		Employee employee12 = new Employee("Arl", 12, 8.32);
-		Employee employee13 = new Employee("Krol", 13, 9.33);
-		Employee employee14 = new Employee("Klern", 14, 8.99);
-		Employee employee15 = new Employee("Karl2", 15, 10.00);
-		Employee employee16 = new Employee("Karl3", 16, 7.22);
-		Employee employee17 = new Employee("Karl4", 17, 7.22);
-		Employee employee18 = new Employee("Karl5", 18, 11.44);
-		Employee employee19 = new Employee("Karl5", 19, 23.22);
+		Employee employee1 = new Employee("Karl", 1, 1.22);
+		Employee employee11 = new Employee("Kloe", 11, 1.82);
+		Employee employee12 = new Employee("Arl", 12, 1.32);
+		Employee employee13 = new Employee("Pol", 13, 2.33);
+		Employee employee14 = new Employee("Laura", 14, 1.99);
+		Employee employee15 = new Employee("Glenn", 15, 10.00);
+		Employee employee16 = new Employee("John", 16, 2.30);
+		Employee employee17 = new Employee("Payton", 17, 3.22);
+		Employee employee18 = new Employee("Fanny", 18, 2.44);
+		Employee employee19 = new Employee("Steph", 19, 3.22);
 		
 		// Assigns the employees to the array
 		managedEmployees[0] = employee11;
@@ -28,7 +28,7 @@ public class TestEmployee {
 		managedEmployees[8] = employee19;
 		
 		// Displays the information of the first employee
-		System.out.println("First employee information: ");
+		System.out.println("Employee information: ");
 		System.out.println("Employee name: " + employee1.getName());
 		System.out.println("Employee id: " + employee1.getId());
 		System.out.println("Employee salary index: " + employee1.getSalIndex());
@@ -44,8 +44,10 @@ public class TestEmployee {
 		System.out.println("Employee yearly salary: " + manager1.getSalary());
 		
 		
-		// Displays the employees managed by manager of id=20
+		// // Displays the employees managed by manager of id=20
+		System.out.println("\n Ids of employees managed by manager id=20: ");
 		manager1.managedEmployees(20);
+		//manager1.display_managedEmployees(20);
 	}
 
 }
