@@ -19,6 +19,8 @@ public class Manager extends Employee {
 		super(name, id, index);	
 	}
 	
+	// Method to find the employees that are managed by a manager of an id that is a multiple of 10
+	// All employees that have an id that is not a multiple of 10 have a manager
 	int count=0;
 	public void managedEmployees(int managerId){
 		// Managers are defined here as employees with an id that is a multiple of 10
