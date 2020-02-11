@@ -2,7 +2,7 @@ public class Employee {
 	String employeeName;
 	int id;
 	double salary_index;
-	static double salary = 7800;
+	static double salary = 150000;
 
 	// Constructor to set the name, the id and the salary index of an employee
 	public Employee(String name, int id, double index) {
