@@ -1,3 +1,5 @@
+// Class for a certain types of employees: managers
+
 public class Manager extends Employee {
 	Employee employee11 = new Employee("Kloe", 11, 1.82);
 	Employee employee12 = new Employee("Arl", 12, 1.32);
