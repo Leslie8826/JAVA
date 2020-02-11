@@ -2,8 +2,10 @@ public class Employee {
 	String employeeName;
 	int id;
 	double salary_index;
-	static double salary = 150000;
-
+	//static double salary = 150000;
+	static double value = 150000;
+	
+	
 	// Constructor to set the name, the id and the salary index of an employee
 	public Employee(String name, int id, double index) {
 		this.employeeName = name;
@@ -28,6 +30,8 @@ public class Employee {
 	
 	// Method to get the yearly salary of an employee
 	double getSalary() {
-		return this.salary_index*salary;
+		double salary = salary_index * value;
+		//return this.salary_index * value;
+		return salary;
 	}
 }
