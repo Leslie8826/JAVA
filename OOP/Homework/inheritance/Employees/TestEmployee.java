@@ -35,7 +35,7 @@ public class TestEmployee {
 		System.out.println("Employee yearly salary: " + employee1.getSalary());
 		
 	
-		//Displays the information of the manager with id=20
+		// Displays the information of the manager with id=20
 		Manager manager1 = new Manager("Trish", 20, 45.99);
 		System.out.println("\n Manager information: ");
 		System.out.println("Employee name: " + manager1.getName());
@@ -44,7 +44,7 @@ public class TestEmployee {
 		System.out.println("Employee yearly salary: " + manager1.getSalary());
 		
 		
-		// // Displays the employees managed by manager of id=20
+		// Displays the employees managed by manager of id=20
 		System.out.println("\n Ids of employees managed by manager id=20: ");
 		manager1.managedEmployees(20);
 		
