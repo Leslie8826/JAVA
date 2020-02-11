@@ -2,7 +2,6 @@ public class Employee {
 	String employeeName;
 	int id;
 	double salary_index;
-	//static double salary = 150000;
 	static double value = 150000;
 	
 	
