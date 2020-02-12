@@ -1,5 +1,5 @@
  This program aims to represent a multiple-choice questionnaire.
- <br> First, the program asks the professor to enter the details 
+ <br><br> First, the program asks the professor to enter the details 
  about the mcq: number of questions, number of answers per  questions (assuming 
 there will be the same number of answers for each question).
 <br><br>
