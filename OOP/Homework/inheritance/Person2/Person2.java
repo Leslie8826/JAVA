@@ -7,7 +7,7 @@ public class Person2 extends Person {
 	}
 	
 	public void write() { 
-		super.write();
+		super.write(); //inhetrits properties from the write() method in Person class 
 		System.out.print(" in " + this.birthdate_place);
 	}	
 }
