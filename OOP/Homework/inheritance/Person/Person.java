@@ -8,9 +8,7 @@ public class Person {
 	}
 	
 	public void write() { 
-		System.out.print(name + "'s DOB d/m/y = ("); 
+		System.out.print(name + "'s DOB (d/m/y) = "); 
 		birthdate.write(); 
-		System.out.print(")");
 	}
 }
-
