@@ -1,8 +1,8 @@
-// This program aims to represent a multiple-choice questionnaire.
-// <br> First, the program asks the professor to enter the details about
-// the mcq: number of questions, number of answers per questions (assuming 
-// there will be the same number of answers for each question).
-//
+ This program aims to represent a multiple-choice questionnaire.
+ <br> First, the program asks the professor to enter the details 
+ about the mcq: number of questions, number of answers per  questions (assuming 
+there will be the same number of answers for each question).
+<br><br>
 // Then, the program asks the professor to type each question along with
 // the choice of answers and the correct answer to that question.
 // Finally, the program students take the questionnaire and enter their answers
