@@ -11,4 +11,10 @@ public class Person {
 		System.out.print(name + "'s DOB (d/m/y) = "); 
 		birthdate.write(); 
 	}
+	
+	public int age() {
+		int age = 0;
+		age =  Date.CURRENT_YEAR - this.birthdate.year;
+		return age;
+	}
 }
