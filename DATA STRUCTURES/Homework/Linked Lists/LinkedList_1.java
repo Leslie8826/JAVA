@@ -101,3 +101,50 @@ public class LinkedList_1 {
 		}
 	}
 }
+
+
+
+/***********************/
+/******* OUTPUT ********/
+/***********************/
+Hey there Manager! What is your name?
+Kelly
+
+ Hello Manager Kelly. Nice to have you here.
+
+ How many cashiers work for you?
+5
+
+ Now, let's enter the list of cashiers in your store! 
+Enter the 1th cashier:
+James
+Enter the 2th cashier:
+Kate
+Enter the 3th cashier:
+Pinyin
+Enter the 4th cashier:
+Karl
+Enter the 5th cashier:
+Huxu
+
+ Below are the list of the cashiers in your store on Fri Jul 25 00:00:00 EDT 3919:
+James
+Kate
+Pinyin
+Karl
+Huxu
+
+ Hello Manager Kelly! Today is Sat Jul 26 00:00:00 EDT 3919
+
+ Do you want to update your list of cashiers today?
+y
+ Add (a) or remove (r)? 
+r
+Please Manager Kelly, type cashier's index?
+1
+
+ Below are the list of the cashiers in your store on Sat Jul 26 00:00:00 EDT 3919:
+James
+Pinyin
+Karl
+Huxu
