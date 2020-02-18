@@ -13,7 +13,7 @@ public class rotate {
 		int count;
 		
 		Scanner s = new Scanner(System.in);
-		System.out.println("Type a number: ");
+		System.out.println("Type the value of k: ");
 		k = s.nextInt();
 		
 		while(k < 0 || k>=7) {
@@ -23,7 +23,6 @@ public class rotate {
 		
 		count = 0;
 		
-    
 		for(int i = 0; i < array2.length-k-1; i++) {
 			array2[i] = array[k+1+i];
 			if(i == array2.length-k-2) {
@@ -34,9 +33,16 @@ public class rotate {
 			}
 		}
 		
-	// Prints the new arrays to check the results
+		System.out.println("\n Original array:");
+		for(int i=0; i<array.length; i++) {
+			System.out.print(" " + array[i]);
+		}
+		
+		System.out.println("\n");
+		
+		System.out.println("Rotated array:");
 		for(int i=0; i<array2.length; i++) {
-			System.out.println(array2[i]);
+			System.out.print(" " + array2[i]);
 		}	
 	}
 }
