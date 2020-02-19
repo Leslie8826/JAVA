@@ -1,4 +1,3 @@
-
 public class TheLinkedList {
 	private Node head;
 
@@ -27,7 +26,6 @@ public class TheLinkedList {
 		i.next = node;
 	}
 
-	
 	// Creates a node with a value and adds it after 
 	// another node with a certain value
 	public void addAfter(String afterValue, String newValue) {
@@ -40,6 +38,22 @@ public class TheLinkedList {
 		
 		node.next = i.next;
 		i.next = node;
+	}
+		
+	// Deletes a node when it is found. 
+	// Works only for all nodes that are different from the head
+	public void delete(String value) {
+		// Stores head node and defines previous node.
+		Node node = head;
+		Node previousNode = null;
+		
+		// Searches for the string to be deleted
+		while(node.value != value) {
+			previousNode = node;
+			node = node.next;
+		}
+		
+		previousNode.next = node.next;
 	}
 	
 	// Displays the Linked List
@@ -55,6 +69,4 @@ public class TheLinkedList {
 		
 		System.out.println(i.value);
 	}
-
 }
-
