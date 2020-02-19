@@ -1,5 +1,5 @@
 public class TheLinkedList {
-	private Node head;
+	public Node head;
 
 	public TheLinkedList() {
 		head = null;
