@@ -24,6 +24,7 @@ public class Glass {
 		}
 	}
 	
+	// Method to drink the content of the glass object
 	 void drink(int q) {
 		if (q <= this.glassCapacity) {
 			this.glassCapacity = this.glassCapacity - q;
@@ -34,19 +35,23 @@ public class Glass {
 		}
 	}
 	
+	
+	// Method to print the content of the glass in millimeters
 	void getGlassContent() {
 		if(glassCapacity >= s.shakerCapacity) {
 			System.out.println(this.glassCapacity);
 		}	
 	}
 	
+	
+	// Method to empty the glass object
 	int empty() {
 		var = 0;
 		return var;
 	}
 	
+	// Method to clean the glass object
 	void clean() {
 		System.out.println("Your glass has been cleaned!!!");
 	}
 }
-
