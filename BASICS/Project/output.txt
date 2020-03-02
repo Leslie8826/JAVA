@@ -1,0 +1,141 @@
+Hello Professor, type the number of questions! 
+4
+Professor, type the number of answers for each question! 
+3
+PROFESSOR, TYPE A QUESTION (or nothing if there is no question)
+Q1
+1. Now Professor, type an answer (or nothing if there is no answer): 
+a1
+2. Now Professor, type an answer (or nothing if there is no answer): 
+a2
+3. Now Professor, type an answer (or nothing if there is no answer): 
+a3
+FINALLY PROFESSOR, TYPE THE NUMBER OF THE RIGHT ANSWER: 
+2
+PROFESSOR, TYPE A QUESTION (or nothing if there is no question)
+Q2
+1. Now Professor, type an answer (or nothing if there is no answer): 
+aa1
+2. Now Professor, type an answer (or nothing if there is no answer): 
+aa2
+3. Now Professor, type an answer (or nothing if there is no answer): 
+aa3
+FINALLY PROFESSOR, TYPE THE NUMBER OF THE RIGHT ANSWER: 
+3
+PROFESSOR, TYPE A QUESTION (or nothing if there is no question)
+Q3
+1. Now Professor, type an answer (or nothing if there is no answer): 
+aaa1
+2. Now Professor, type an answer (or nothing if there is no answer): 
+aaa2
+3. Now Professor, type an answer (or nothing if there is no answer): 
+aaa3
+FINALLY PROFESSOR, TYPE THE NUMBER OF THE RIGHT ANSWER: 
+1
+PROFESSOR, TYPE A QUESTION (or nothing if there is no question)
+Q4
+1. Now Professor, type an answer (or nothing if there is no answer): 
+aaaa1
+2. Now Professor, type an answer (or nothing if there is no answer): 
+aaaa2
+3. Now Professor, type an answer (or nothing if there is no answer): 
+aaaa3
+FINALLY PROFESSOR, TYPE THE NUMBER OF THE RIGHT ANSWER: 
+3
+
+ Professor, here is the MCQ: 
+
+Question 1: Q1
+    1. a1
+    2. a2
+    3. a3
+Question 2: Q2
+    1. aa1
+    2. aa2
+    3. aa3
+Question 3: Q3
+    1. aaa1
+    2. aaa2
+    3. aaa3
+Question 4: Q4
+    1. aaaa1
+    2. aaaa2
+    3. aaaa3
+
+ Dear Professor, your questions and answers have been stored
+
+ Hello Student, this is the beginning of the MCQ: 
+ Question 1: Q1
+    1. a1
+    2. a2
+    3. a3
+
+ Student, type your answer number: 
+1
+ Question 2: Q2
+    1. aa1
+    2. aa2
+    3. aa3
+
+ Student, type your answer number: 
+2
+ Question 3: Q3
+    1. aaa1
+    2. aaa2
+    3. aaa3
+
+ Student, type your answer number: 
+1
+ Question 4: Q4
+    1. aaaa1
+    2. aaaa2
+    3. aaaa3
+
+ Student, type your answer number: 
+1
+
+ Results: 
+ Sorry! You failed the exam!! 
+1.0
+/4
+ Do you want to start over the MCQ (y or n)?
+y
+
+ Hello Student, this is the Beginning of the questionnaire: 
+ Question 1: Q1
+    1. a1
+    2. a2
+    3. a3
+
+ Student, type your answer number: 
+2
+ Question 2: Q2
+    1. aa1
+    2. aa2
+    3. aa3
+
+ Student, type your answer number: 
+3
+ Question 3: Q3
+    1. aaa1
+    2. aaa2
+    3. aaa3
+
+ Student, type your answer number: 
+1
+ Question 4: Q4
+    1. aaaa1
+    2. aaaa2
+    3. aaaa3
+
+ Student, type your answer number: 
+1
+
+ Results: 
+ Congratulations! You passed the exam!! 
+3.0
+/4 
+ Do you want to start over the MCQ (y or n)? 
+n
+ You are done with the MCQ! 
+ The MCQ is over!! 
