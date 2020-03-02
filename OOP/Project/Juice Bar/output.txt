@@ -1,0 +1,39 @@
+My juice bar: 
+Bottle of Apple juice: 2000 ml
+Bottle of Pineapple juice: 2000 ml
+Bottle of Orange juice: 2000 ml
+
+ Pouring 150 ml of Apple juice: 
+Quantity in shacker: 150 ml
+Quantity left in bottle = 1850 ml
+
+ Pouring 150 ml of Pineapple juice: 
+Quantity in shacker: 300 ml
+Quantity left in bottle = 1850 ml
+
+ Pouring 320 ml of Orange juice: 
+Quantity in shacker: 620 ml
+Quantity left in bottle = 1680 ml
+
+
+Only 600 ml was added to your glass
+Quantity left in shaker: 20 ml
+
+ Let's drink!
+You drank 50 ml
+Quantity left in your glass: 550 ml
+
+ No waste please! Finish your glass!!!
+
+ Let's keep drinking!
+You drank 200 ml
+Quantity left in your glass: 350 ml
+You drank 350 ml
+Quantity left in your glass: 0 ml
+
+ Let's clean the shaker and the glass:
+First, let's see if there are remaining liquids in both: 
+Content in shaker now: 0
+Content in glass now: 0
+Your shaker has been cleaned!!!
+Your glass has been cleaned!!!
