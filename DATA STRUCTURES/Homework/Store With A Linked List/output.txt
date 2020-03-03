@@ -1,0 +1,32 @@
+Hey there Manager! What is your name?
+Marc
+
+ Hello Manager Marc. Nice to have you here.
+
+ How many cashiers work for you?
+4
+
+ Now, let's enter the list of cashiers in your store! 
+Enter the 1th cashier:
+C1
+Enter the 2th cashier:
+C2
+Enter the 3th cashier:
+C3
+Enter the 4th cashier:
+C4
+
+ Below is you and the list of the cashiers in your store on Fri Jul 25 00:00:00 EDT 3919:
+Marc ---> C1 ---> C2 ---> C3 ---> C4
+
+ Hello Manager Marc! Today is Sat Jul 26 00:00:00 EDT 3919
+
+ Do you want to update your list of cashiers today?
+y
+ Add (a) or remove (r)? 
+a
+Manager Marc, Please enter the name of the new the cashier:
+C5
+
+ Below are the list of the cashiers in your store on Sat Jul 26 00:00:00 EDT 3919:
+Marc ---> C1 ---> C2 ---> C3 ---> C4 ---> C5
