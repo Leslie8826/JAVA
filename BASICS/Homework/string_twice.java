@@ -18,7 +18,7 @@ public class string_twice {
 		sta.push(str.toLowerCase());
 			
 		// Display elements of stack
-		System.out.println("\n \n Display 2:");
+		System.out.println("\n Display:");
 		while (!sta.isEmpty()){
 			String temp = sta.pop();
 			System.out.print(temp);
@@ -27,3 +27,18 @@ public class string_twice {
 	}
 
 }
+
+
+
+
+/**********************************
+*************** OUTPUT ***********
+**********************************/
+
+Enter a String: 
+Test_tESt
+
+ Display:
+TEST_TESTtest_test
+ 
+ 
