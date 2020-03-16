@@ -1,3 +1,6 @@
+/* This program asks the user to enter string input. Then, it outputs the string twice in a row: 
+   all uppercase first and all lowercase second */
+
 import java.util.Enumeration;
 import java.util.Scanner;
 import java.util.Stack;
@@ -11,20 +14,16 @@ public class string2 {
 		System.out.println(" Enter a String: ");
 		String str = input.nextLine();
 		
-    // Insert elements in stack
-		sta.push(str.toLowerCase());
 		sta.push(str.toUpperCase());
-		
-		Enumeration enu = sta.elements();
-		
+		sta.push(str.toLowerCase());
+			
 		// Display elements of stack
-		System.out.println("\n Display 1:");
-		while (enu.hasMoreElements()) {
-			System.out.print(enu.nextElement());
-    }
+		System.out.println("\n \n Display 2:");
+		while (!sta.isEmpty()){
+			String temp = sta.pop();
+			System.out.print(temp);
 			
 		}
 	}
 
 }
-
