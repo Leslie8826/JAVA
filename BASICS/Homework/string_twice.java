@@ -5,7 +5,7 @@ import java.util.Enumeration;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class string2 {
+public class string_twice {
 
 	public static void main(String[] args) {
 		Stack<String> sta = new Stack<String>();
