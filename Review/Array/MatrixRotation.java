@@ -45,3 +45,35 @@ public class MatrixRotation {
 	}
 
 }
+
+
+/**
+Output for q=2
+
+Matrix m:
+a b  
+c d  
+
+Matrix n:
+b d  
+a c 
+
+**/
+
+
+/**
+Output for q=3 with char[][] m = {{'a', 'b', 'c'}, {'d', 'e', 'f'}, {'g', 'h', 'i'}};
+
+Matrix m:
+a b c  
+d e f  
+g h i  
+
+Matrix n:
+c f i  
+b e h  
+a d g
+
+
+
+**/
