@@ -4,7 +4,8 @@ public class MatrixRotation {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int q = 2;
+		 int q = 2;
+		// int q = 3;
 		
 		//char[][] m = {{'a', 'b', 'c'}, {'d', 'e', 'f'}, {'g', 'h', 'i'}};
 		char[][] m = {{'a', 'b'}, {'c', 'd'}};
