@@ -48,6 +48,7 @@ public class MatrixRotation {
 
 
 /**
+
 Output for q=2
 
 Matrix m:
@@ -61,7 +62,10 @@ a c
 **/
 
 
+
+
 /**
+
 Output for q=3 with char[][] m = {{'a', 'b', 'c'}, {'d', 'e', 'f'}, {'g', 'h', 'i'}};
 
 Matrix m:
