@@ -1,9 +1,9 @@
-
+// This program rotates a matrix NxN by 90 degrees.
+// I considered this 90-degree rotation counterclockwise
 
 public class MatrixRotation {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		 int q = 2;
 		// int q = 3;
 		
