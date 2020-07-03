@@ -1,7 +1,7 @@
 // This program sorts the elements of an array in ascending order
 // with the insertion sort algorithm
 
-public class InsertionSort {
+public class InsertionSort_ascendingOrder {
 	public static void main(String[] args) {
 		int[] a = {2, 6, 1, 4, 7};
 		
