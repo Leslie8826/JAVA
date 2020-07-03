@@ -1,0 +1,16 @@
+public class LinkedList_Tester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MyLinkedList list = new MyLinkedList();
+		
+		list.addFirst("! ");
+		list.addFirst("World");
+		list.addFirst("Hello");
+		
+		list.display();
+
+	}
+
+}
