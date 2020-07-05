@@ -1,3 +1,5 @@
+// This programs sorts the elements of an array
+// using the selection sort algorithm
 
 public class SelectionSort {
 	void selection_sort(int[] a) {
