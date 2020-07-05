@@ -1,3 +1,6 @@
+// This programs sorts an array using 
+// the bubble sort algorithm
+
 public class BubbleSort {
 	void bubble_sort(int[] a) {
 		int size = a.length;
