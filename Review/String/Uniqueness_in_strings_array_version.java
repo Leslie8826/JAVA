@@ -1,13 +1,11 @@
 /**
- * Implement an algorithm to determine if a string has all unique characters. 
- * What if you cannot use additional data structures?
- * 
+ * This program implements an algorithm to determine if a string has all unique characters. 
+ *
  **/
  
 public class Unique {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//String str = "cbaaaaadt";
 		String str = "Qcbadt";
 		int[] occurences = new int[str.length()];
