@@ -3,7 +3,7 @@
 import java.util.Hashtable;
 import java.util.Set;
  
-public class Unique {
+public class Uniqueness_in_strings {
 
 	public static void main(String[] args) {
 		String str = "cbaaaaadt";
