@@ -3,7 +3,7 @@
  *
  **/
  
-public class Unique {
+public class Uniqueness_in_strings_array_version {
 
 	public static void main(String[] args) {
 		//String str = "cbaaaaadt";
