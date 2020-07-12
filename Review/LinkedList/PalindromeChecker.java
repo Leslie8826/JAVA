@@ -1,3 +1,9 @@
+/* 
+* 
+* This program implements a function to check if a linked list is a palindrome.
+* 
+*/
+
 import java.util.LinkedList;
 
 public class PalindromeChecker {
