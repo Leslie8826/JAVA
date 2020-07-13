@@ -10,7 +10,7 @@
 //import java.util.Enumeration;
 import java.util.*;
 
-public class Test {
+public class Test_ht {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
