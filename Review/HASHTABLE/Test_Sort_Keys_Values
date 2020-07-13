@@ -1,0 +1,47 @@
+// This program sorts the keys of a hashtable
+// as well as the values of the same hashtable
+
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Test_SortKeys {
+
+	public static void main(String[] args) {
+		Hashtable<String, String> ht = new Hashtable<String, String>();
+		TreeSet<String> sorted_keys = new TreeSet<String>(); 
+		TreeSet<String> sorted_values = new TreeSet<String>(); 
+		
+		ht.put("a", "z");
+		ht.put("x", "b");
+		ht.put("m", "l");
+		
+		// Prints hastable (way 1)
+		System.out.println("Printing list (way 1):");
+		System.out.println(ht);
+		
+		// Prints hastable (way 2) 
+		// + inserts hashtable keys in TreeSet 
+		// + inserts hashtable values in TreeSet
+		System.out.println("");
+		System.out.println("Printing list (way 2):");
+		for(String key : ht.keySet()) {
+			System.out.println(key + " , " + ht.get(key));
+			sorted_keys.add(key);
+			sorted_values.add(ht.get(key));
+		}
+		
+		// Displays sorted keys
+		System.out.println("");
+		System.out.println("Keys sorted:");
+		System.out.println(sorted_keys);
+		
+		// Displays sorted values
+		System.out.println("");
+		System.out.println("Values sorted:");
+		System.out.print(sorted_values);
+
+	}
+
+}
