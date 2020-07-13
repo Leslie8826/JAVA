@@ -52,3 +52,20 @@ public class Test {
 	}
 
 }
+
+
+/**
+
+OUTPUT
+
+Incomplete hashtable:
+{l=0, H=0, e=0, o=0}
+
+Complete hashtable:
+character: l, occurence = 2
+character: H, occurence = 1
+character: e, occurence = 1
+character: o, occurence = 3
+
+
+**/
