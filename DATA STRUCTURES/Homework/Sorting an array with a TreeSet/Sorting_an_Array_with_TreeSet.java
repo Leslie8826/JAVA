@@ -29,3 +29,18 @@ public class Sorting_an_Array_with_TreeSet {
 	}
 	
 }
+
+
+/**
+*
+*
+* Elements of the array: 
+* 77  23  4  66  99  112  45  56  39  89  
+* 
+* Elements of the array - sorted with TreeSet: 
+* [4, 23, 39, 45, 56, 66, 77, 89, 99, 112]
+*
+*
+**/
+
+
