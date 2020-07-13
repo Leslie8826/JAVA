@@ -1,3 +1,9 @@
+/**
+* 
+* This program sorts an array of distinct integers using a TreeSet
+* 
+* */
+
 import java.util.*;
 
 public class Sorting_an_Array_with_TreeSet {
