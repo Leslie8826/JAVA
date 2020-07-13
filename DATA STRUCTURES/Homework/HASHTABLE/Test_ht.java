@@ -24,6 +24,7 @@ public class Test {
 		}
 		
     // Prints incomplete hashtable
+		System.out.println("Incomplete hashtable:");
 		System.out.print(count);
 		
     // insert values of corresponding each key into hashtable
@@ -42,6 +43,7 @@ public class Test {
 		Enumeration<Character> enumeration = count.keys();
 		
 		System.out.println("\n");
+		System.out.println("Complete hashtable:");
 		while(enumeration.hasMoreElements()) {
 			Character key2 = enumeration.nextElement();
 			System.out.println("character: "+ key2 + ", occurence = " + count.get(key2));
