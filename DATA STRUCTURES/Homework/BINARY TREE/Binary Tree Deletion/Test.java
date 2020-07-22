@@ -40,3 +40,36 @@ public class Test {
 		tree.PrintPostOrder(tree.root);
 	}
 }
+
+
+/*******************************************/
+/******* OUTPUT ****************************/
+/****
+
+
+My initial Tree:
+8 15 1 60 45 2 77 
+
+...Deleting left and righ subtrees of root...
+
+
+Is tree empty? false
+My new Tree:
+77 
+
+...Deleting last node of tree...
+
+
+Is tree empty now? true
+
+
+My new Tree:
+
+
+
+
+
+
+
+
+***/
