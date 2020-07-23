@@ -16,9 +16,9 @@ public class Graph {
 	
 	
 	// Adds the edges between vertices
-	public void addEdge(int source, int destination) {
-		list[source].add(destination);
-		list[destination].add(source);
+	public void addEdge(int start, int end) {
+		list[start].add(end);
+		list[end].add(start);
 	}
 
 	
