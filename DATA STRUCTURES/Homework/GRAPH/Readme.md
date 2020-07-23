@@ -1,1 +1,1 @@
-# Graph practice section
+# Practice section on graphs
