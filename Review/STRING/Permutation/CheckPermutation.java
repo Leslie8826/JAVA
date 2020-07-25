@@ -147,3 +147,82 @@ public class CheckPermutation {
 		isPermutation(s1, s2, ht1, ht2);
 	}
 }
+
+/*************************************
+********** OUTPUT ********************
+
+STRING 1:
+Character t, Occurences = 2
+Character o, Occurences = 4
+
+
+STRING 2:
+Character t, Occurences = 2
+Character o, Occurences = 4
+
+ Are strings similar?
+totooo and toooto are not identical
+
+ Are strings similar?
+false
+
+
+Comparison:
+'totooo' is a permutation of 'toooto'
+
+*/
+
+
+
+/*********************************
+************** OUTPUT 2 **********
+
+STRING 1:
+Character t, Occurences = 2
+Character o, Occurences = 1
+
+
+STRING 2:
+Character t, Occurences = 2
+Character o, Occurences = 2
+
+ Are strings similar?
+tot and toto does not have the same size!!!
+
+ Are strings similar?
+false
+
+
+Comparison:
+'tot' is a not permutation of 'toto'
+
+*********/
+
+
+
+
+/*****************************
+********** OUTPUT 3 **********
+
+STRING 1:
+Character t, Occurences = 2
+Character o, Occurences = 2
+
+
+STRING 2:
+Character t, Occurences = 2
+Character o, Occurences = 2
+
+ Are strings similar?
+toto and toto are identical
+
+ Are strings similar?
+true
+
+Comparison:
+'toto' is a not permutation of 'toto'
+
+***********/
+
+
+
