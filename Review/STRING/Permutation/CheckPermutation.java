@@ -64,17 +64,13 @@ public class CheckPermutation {
 			}
 			if(count == s1.length() && count == s2.length()) {
 				res=true;
-				System.out.println("res = " + res);
 			} else {
 				res=false;
-				System.out.println("res = " + res);
 			}
 		} else {
 			res=false;
-			System.out.println("res = " + res);
 		}
-		
-		System.out.println("res = " + res);
+	
 		return res;
 	}
 	
@@ -109,7 +105,7 @@ public class CheckPermutation {
 			}
 		}
 		
-		// if 
+		
 		boolean bool = isSame2(s1, s2);
 		if(count == ht1.size() && count == ht2.size() && bool == false && s1.length() == s2.length())
 			System.out.println("'" + s1 + "' is a permutation of '" + s2 + "'");
