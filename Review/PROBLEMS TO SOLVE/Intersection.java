@@ -1,6 +1,6 @@
 /*
 ** 
-** Given two arrays, write a function to compute their intersection.
+** Given two arrays, this program writes a function to compute their intersection.
 **
 **/
 
