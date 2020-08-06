@@ -1,3 +1,9 @@
+/*
+** 
+** Given two arrays, write a function to compute their intersection.
+**
+**/
+
 import java.util.ArrayList;
 import java.util.HashSet;
 
