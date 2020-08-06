@@ -1,4 +1,9 @@
-
+/**
+**
+** Given two arrays, this programs writes a function to compute their intersection.
+** Each element in the result should appear as many times as it shows in both arrays.
+**
+**/
 
 import java.util.ArrayList;
 import java.util.HashMap;
