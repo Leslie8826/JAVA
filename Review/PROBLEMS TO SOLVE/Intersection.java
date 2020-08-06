@@ -1,6 +1,7 @@
 /*
 ** 
 ** Given two arrays, this program writes a function to compute their intersection.
+** Each element in the result must be unique.
 **
 **/
 
